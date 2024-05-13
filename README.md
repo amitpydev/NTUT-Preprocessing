@@ -24,7 +24,7 @@ Ensure that the downloaded `archive.zip` file from Kaggle is either in the same 
 
 ### Running the Script
 
-To process the dataset and prepare it for YOLOv5, execute the following command, specifying the path to the ZIP file if it is not in the same directory:
+To process the dataset and prepare it for YOLOv5, execute the following command, specifying the path to the ZIP file and the output processed data folder:
 
 ```bash
 python main.py --zip_path="archive.zip" --yolov5_data_path="path_to_yolov5_output_directory"
